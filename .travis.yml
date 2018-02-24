@@ -1,0 +1,16 @@
+language: node_js
+install:
+  - npm i
+  - npm install -g grunt-cli
+  - npm install eslint
+  - npm install grunt
+  - npm install grunt-contrib-qunit
+  - npm install grunt-attention
+  - npm install time-grunt
+  - npm install chalk
+  - npm install jscs@2.4.0
+  - npm install bower
+  - npm install load-grunt-config
+
+script:
+  - eslint .
